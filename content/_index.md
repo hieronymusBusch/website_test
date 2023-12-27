@@ -12,9 +12,20 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
   - block: collection
+    content:
+      title: Projects
+      text: ''
+      filters:
+        folders:
+          - publication
+        exclude_featured: true
+    design:
+      columns: '2'
+      view: citation
+  - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: Posts
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -38,17 +49,6 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-  - block: collection
-    content:
-      title: Recent Projects
-      text: ''
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
   - block: contact
     id: contact
     content:
