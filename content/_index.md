@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2024-01-01
 type: landing
 
 sections:
@@ -53,7 +53,7 @@ sections:
   - block: collection
     content:
       title: Current Projects
-      text: |-
+      text: #|-
         #{{% callout note %}}
         #Quickly discover relevant content by [filtering publications](./publication/).
         #{{% /callout %}}
@@ -95,7 +95,7 @@ sections:
       text: |-
         Reach out via e-mail or social media! 
       # Contact (add or remove contact options as necessary)
-      email: busch@iza.org
+      #email: busch@iza.org
       email: alexander1busch@gmail.com
 #      phone: 888 888 88 88
 #      appointment_url: 'https://calendly.com'
