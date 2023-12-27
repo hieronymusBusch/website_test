@@ -54,8 +54,8 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: Please reach out to me via e-mail. 
-      email: alexander1busch@gmail.com
+      text: Please reach out to me via e-mail or DM. 
+      email: busch@iza.org
 #      phone: 888 888 88 88
 #      appointment_url: 'https://calendly.com'
 #      address:
